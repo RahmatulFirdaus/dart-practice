@@ -1,12 +1,4 @@
-void main(){
-  var cat = Animal(name: "kucing", age: 2, weight: 4);
-
-  cat.eat();
-  cat.sleep();
-  cat.poop();
-}
-
-class Animal {
+abstract class Animal {
   //tambahkan atribut/ciri-ciri
   String name;
   int age;

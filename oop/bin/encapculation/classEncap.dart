@@ -1,6 +1,7 @@
 void main(){
-  var cat = Animal("kucing", 2, 4);
+  var cat = Animal("", 2, 4);
   //error karena classEncap memiliki variabel private
+
 
   cat.eat();
   cat.sleep();
@@ -12,6 +13,7 @@ class Animal {
   int _age = 0;
   double _weight = 0;
 
+  // Constructor
   Animal(this._name, this._age, this._weight);
 
   // Setter

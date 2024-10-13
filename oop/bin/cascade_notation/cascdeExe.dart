@@ -1,5 +1,8 @@
 void main(){
-  var cat = Animal(name: "kucing", age: 2, weight: 4);
+  var cat = Animal(name: "", age: 2, weight: 4) //jangan dikasih ;
+
+  //casecade notation
+  ..name = 'rey';
 
   cat.eat();
   cat.sleep();
