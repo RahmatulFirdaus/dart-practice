@@ -1,6 +1,6 @@
 import 'animal.dart';
 import 'run.dart';
-class Dog extends Animal implements Run {
+class Dog extends Animal implements Run { //implements run
   String jenis;
   
   Dog({
@@ -14,4 +14,5 @@ class Dog extends Animal implements Run {
   void run() {
     print("$name is run");
   }
+  //jika tidak ada void nya maka error
 }
