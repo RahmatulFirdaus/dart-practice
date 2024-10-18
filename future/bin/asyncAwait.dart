@@ -1,6 +1,6 @@
 // async and await, jadi then value, catch error, dll itu menggunakan metode async dan penulisan async, pada materi ini menggunakan async await dalam penulisan sync
 void main() async {
-  print("Waiting your order");
+  print("Waiting your order...");
   try {
     var getOrder = await order();
     print("Order kamu $getOrder");

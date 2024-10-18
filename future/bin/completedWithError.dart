@@ -15,7 +15,7 @@ Future order() {
     if (stockAvailable) {
       return "Coffe Milk";
     }else{
-      throw "Our Stock its not available"; //pakai throw agar dia tidak menampilakan value, tapi menampilkan e
+      throw "Stock its not available"; //pakai throw agar dia tidak menampilakan value, tapi menampilkan e
     }
   });
 }
